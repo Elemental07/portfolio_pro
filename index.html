@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Leonard Shevchenko — motivierter Kandidat mit Interesse an IT, Technik und Elektronik. Suche Praktikum oder Ausbildung in Landshut, Deutschland.">
+  <meta name="author" content="Leonard Shevchenko">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Leonard Shevchenko — IT & Technik">
+  <meta property="og:description" content="Motivierter Kandidat mit Interesse an IT, Technik und Elektronik. Suche Praktikum oder Ausbildung in Landshut, Deutschland.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/leonard_photo.png">
+
+  <title>Leonard Shevchenko — IT & Technik</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,480;9..144,600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="alternate icon" href="./assets/favicon.ico">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Progress indicator -->
+  <div class="progress-track" aria-hidden="true">
+    <div class="progress-line"></div>
+    <div class="progress-station" data-section="about">
+      <div class="station-dot"></div>
+      <div class="station-label">Über mich</div>
+    </div>
+    <div class="progress-station" data-section="experience">
+      <div class="station-dot"></div>
+      <div class="station-label">Erfahrung</div>
+    </div>
+    <div class="progress-station" data-section="education">
+      <div class="station-dot"></div>
+      <div class="station-label">Bildung</div>
+    </div>
+    <div class="progress-station" data-section="contact">
+      <div class="station-dot"></div>
+      <div class="station-label">Kontakt</div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-top">
+        <img class="avatar" src="./assets/leonard_photo.png" alt="Foto von Leonard Shevchenko">
+      </div>
+      <div class="hero-textblock">
+        <div class="hero-role">IT & Technik</div>
+        <h1>Leonard<br>Shevchenko</h1>
+        <p>Motivierter und zuverlässiger Kandidat mit Interesse an IT, Technik und Elektronik. Arbeite praktisch orientiert, lerne schnell und gehe selbstständig an Aufgaben heran, um sie erfolgreich abzuschließen.</p>
+
+        <!-- Diagnostic Console -->
+        <div class="console" role="region" aria-label="Interaktive Konsole">
+          <div class="console-header">
+            <span class="console-title">system@portfolio:~$</span>
+          </div>
+          <div class="console-body">
+            <div class="console-output" id="console-output" aria-live="polite"></div>
+            <div class="console-input-line">
+              <span class="console-prompt">$</span>
+              <input
+                type="text"
+                class="console-input"
+                id="console-input"
+                placeholder="help eingeben für Befehle"
+                autocomplete="off"
+                spellcheck="false"
+                aria-label="Konsolen-Eingabe"
+              >
+            </div>
+          </div>
+        </div>
+
+        <nav class="hero-links" aria-label="Navigation zu den Abschnitten">
+          <a href="#about">Über mich</a>
+          <a href="#experience">Erfahrung</a>
+          <a href="#education">Bildung</a>
+          <a href="#contact">Kontakt</a>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <h2>Über mich</h2>
+      <p>Motivierter und zuverlässiger Kandidat mit Interesse an IT, Technik und Elektronik. Mir gefällt praktische Arbeit — herauszufinden, wie alles funktioniert, und Lösungen selbstständig zu finden.</p>
+      <p>Mein Ziel ist es, praktische Erfahrungen zu sammeln und mich perspektivisch im technischen oder IT-Bereich weiterzuentwickeln.</p>
+      <div class="facts">
+        <div>
+          <div class="fact-label">Fachgebiet</div>
+          <div class="fact-value">IT, Technik, Elektronik</div>
+        </div>
+        <div>
+          <div class="fact-label">Standort</div>
+          <div class="fact-value">Landshut, Deutschland</div>
+        </div>
+        <div>
+          <div class="fact-label">Bildung</div>
+          <div class="fact-value">Mittelschule, 2022</div>
+        </div>
+        <div>
+          <div class="fact-label">Status</div>
+          <div class="fact-value">Suche Praktikum / Ausbildung</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <div class="wrap">
+      <h2>Berufserfahrung</h2>
+
+      <article class="entry">
+        <div class="entry-top">
+          <h3 class="entry-name">Praktikant</h3>
+          <time class="entry-date" datetime="2022-06">06/2022</time>
+        </div>
+        <div class="entry-sub">ATU — Landshut</div>
+        <ul>
+          <li>Montage von Reifen an Pkw und Nutzfahrzeugen nach Auftrag</li>
+          <li>Demontage und Montage von Rädern</li>
+          <li>Arbeit mit Werkzeugen und Werkstattausrüstung</li>
+          <li>Unterstützung bei alltäglichen Werkstattaufgaben</li>
+          <li>Einhaltung von Arbeits- und Sicherheitsvorschriften</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-top">
+          <h3 class="entry-name">Praktikant</h3>
+          <time class="entry-date" datetime="2021-06">06/2021</time>
+        </div>
+        <div class="entry-sub">Autoteile Gektor — Landshut</div>
+        <ul>
+          <li>Montage von Reifen an Pkw und Nutzfahrzeugen nach Auftrag</li>
+          <li>Demontage und Montage von Rädern</li>
+          <li>Arbeit mit Werkzeugen und Werkstattausrüstung</li>
+          <li>Unterstützung bei alltäglichen Werkstattaufgaben</li>
+          <li>Einhaltung von Arbeits- und Sicherheitsvorschriften</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <div class="wrap">
+      <h2>Schulbildung</h2>
+      <article class="entry">
+        <div class="entry-top">
+          <h3 class="entry-name">Qualifizierender Abschluss der Mittelschule</h3>
+          <time class="entry-date" datetime="2022">2022</time>
+        </div>
+        <div class="entry-sub">Mittelschule Landshut-Schönbrunn</div>
+        <ul>
+          <li>Mathematik — sehr gut</li>
+          <li>Technik — gut</li>
+          <li>Projektprüfung — gut</li>
+          <li>Sport — sehr gut</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <div class="wrap">
+      <h2>Fähigkeiten und Sprachen</h2>
+      <div class="skills-grid">
+        <div class="skill-col">
+          <h3>Kompetenzen</h3>
+          <ul>
+            <li>Technisches Verständnis</li>
+            <li>Problemlösungskompetenz</li>
+            <li>Analytisches Denken</li>
+            <li>Zuverlässigkeit</li>
+            <li>Selbstständige Arbeitsweise</li>
+            <li>Lernbereitschaft</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Sprachen</h3>
+          <div class="lang-row"><span>Russisch</span><span class="lang-level">Muttersprache</span></div>
+          <div class="lang-row"><span>Deutsch</span><span class="lang-level">B2</span></div>
+          <div class="lang-row"><span>Englisch</span><span class="lang-level">A2</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Kontakt</h2>
+      <p>Offen für Praktikum, Praktika oder Ausbildung im IT- und Technikbereich. Am einfachsten per E-Mail oder Telefon kontaktieren.</p>
+      <div class="contact-list">
+        <a href="mailto:leonard.shevchenko.07@gmail.com">
+          <span>Email</span>
+          leonard.shevchenko.07@gmail.com
+        </a>
+        <a href="tel:+4915733784998">
+          <span>Telefon</span>
+          +49 157 33784998
+        </a>
+        <div>
+          <span>Standort</span>
+          Landshut, Deutschland
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Leonard Shevchenko</span>
+    <span>© 2026</span>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
